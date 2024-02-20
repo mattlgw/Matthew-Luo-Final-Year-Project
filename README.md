@@ -1,4 +1,11 @@
-# CakePHP Application Skeleton
+# Matthew Luo 28791320 - 2023 Monash Final Year Project 
+## Website hosted locally via Xampp, 
+## Website domain & email hosting are configured online via cPanel  
+## Website interface setup by CakePHP
+## Database configured with MySQL and phpMyAdmin 
+read below for CakePHP instructions
+
+# CakePHP Application
 
 ![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
