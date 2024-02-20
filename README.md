@@ -3,58 +3,33 @@
 ## Website domain & email hosting are configured online via cPanel  
 ## Website interface setup by CakePHP
 ## Database configured with MySQL and phpMyAdmin 
-read below for CakePHP instructions
 
-# CakePHP Application
+Homepage
+![Screenshot 2024-02-20 125112](https://github.com/mattlgw/Final-Year-Project/assets/159749896/046650f1-e158-4f4d-9f1d-4c71a9e2052e)
 
-![Build Status](https://github.com/cakephp/app/actions/workflows/ci.yml/badge.svg?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-[![PHPStan](https://img.shields.io/badge/PHPStan-level%207-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
+Destination
+![Screenshot 2024-02-20 125627](https://github.com/mattlgw/Final-Year-Project/assets/159749896/40cb3767-8fa6-4c9b-af43-059acbed49a9)
 
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 4.x.
+Prospect Origin
+![Screenshot 2024-02-20 125835](https://github.com/mattlgw/Final-Year-Project/assets/159749896/99594a19-8594-4735-bce3-8aebfa8b1522)
 
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
+Mapping
+![image](https://github.com/mattlgw/Final-Year-Project/assets/159749896/9ff7f20f-7f9f-473a-b80c-64bb2724a0aa)
+
+Admin Dashboard
+![Screenshot 2024-02-20 131955](https://github.com/mattlgw/Final-Year-Project/assets/159749896/b6609717-449e-4a55-ba4a-de49f56426c9)
+
+![image](https://github.com/mattlgw/Final-Year-Project/assets/159749896/ed9b2d09-b5b1-4112-916f-cf74b503cefe)
+
 
 ## Installation
 
-1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
+1. Download and install [Xampp](https://www.apachefriends.org/download.html)
+2. Download and install [Composer](https://getcomposer.org/doc/00-intro.md) 
 
-If Composer is installed globally, run
-
+After downloading the repository code, run the following commands in Git Terminal :
 ```bash
-composer create-project --prefer-dist cakephp/app
+composer install
+composer update
+composer require "cakephp/authentication:^2.10"
 ```
-
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
-composer create-project --prefer-dist cakephp/app myapp
-```
-
-You can now either use your machine's webserver to view the default home page, or start
-up the built-in webserver with:
-
-```bash
-bin/cake server -p 8765
-```
-
-Then visit `http://localhost:8765` to see the welcome page.
-
-## Update
-
-Since this skeleton is a starting point for your application and various files
-would have been modified as per your needs, there isn't a way to provide
-automated upgrades, so you have to do any updates manually.
-
-## Configuration
-
-Read and edit the environment specific `config/app_local.php` and setup the 
-`'Datasources'` and any other configuration relevant for your application.
-Other environment agnostic settings can be changed in `config/app.php`.
-
-## Layout
-
-The app skeleton uses [Milligram](https://milligram.io/) (v1.3) minimalist CSS
-framework by default. You can, however, replace it with any other library or
-custom styles.
