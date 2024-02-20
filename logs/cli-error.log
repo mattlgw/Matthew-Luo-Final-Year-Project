@@ -1,0 +1,15 @@
+2023-10-05 18:09:37 error: [ParseError] syntax error, unexpected identifier "Categories" in C:\xampp\htdocs\team008-app_fit3048\src\Controller\CategoriesTransportsController.php on line 62
+Stack Trace:
+- C:\xampp\htdocs\team008-app_fit3048\vendor\composer\ClassLoader.php:433
+- [internal]:??
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\bake\src\Command\TestCommand.php:255
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\bake\src\Command\TestCommand.php:132
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\bake\src\Command\ControllerCommand.php:207
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\bake\src\Command\ControllerCommand.php:154
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\bake\src\Command\ControllerCommand.php:64
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\cakephp\src\Console\BaseCommand.php:189
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\team008-app_fit3048\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\team008-app_fit3048\bin\cake.php:12
+
